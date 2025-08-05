@@ -3,17 +3,16 @@ title: |
   ![](mcgill_logo_new.png){width=30in} 
   
   EPIB 704 – Epidemiologic Methods I
-subtitle: " "
+subtitle: "Fall 2024"
 author: "Mabel Carabali"
 date: "Created: 2024-08-01 | Updated: `r Sys.Date()`"
 output:
-  html_document:
+  html_document: 
     code_folding: hide
     highlight: tango
     theme: readable
-    toc: yes
-    toc_depth: 3
-    toc_float: yes
+    toc: true
+    toc_float: true
   pdf_document: 
     toc: yes
     keep_tex: yes
@@ -39,11 +38,12 @@ invisible(lapply(packages, function(xxx) suppressMessages(require(xxx, character
 
 # Lecture Schedule and Slides 
 
+We have pre-selected a list of topics to go through the 13 weeks-long course. Each lecture is aimed at addressing specific epidemiological concepts, addressing both theoretical and analytic/practical aspects.
+
 
 | **Date**           | **Topic**                           | Slides   (pdf/html)           |
 |--------------------|-------------------------------------|-------------------------------|
 | August 29, 2024    | Lecture 01 - Introduction EPIB 704  | [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/209d17c34e1e00d2c5549ae7386c4492a046e0f3/slides/L1_Introduction%20to%20EPIB%20704.pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/06a964b6bd322a1b08cd1c64c336132536f2a6a4/L1_EPIB704_v0.html) |
-| August 29, 2024    | Lecture 01 - Introduction EPIB 704    | [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/209d17c34e1e00d2c5549ae7386c4492a046e0f3/slides/L1_Introduction%20to%20EPIB%20704.pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/06a964b6bd322a1b08cd1c64c336132536f2a6a4/L1_EPIB704_v0.html) |
 | September 3, 2024  | Lecture 02 - Statistical inference - Frequentist / Bayesian                                   |  [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/209d17c34e1e00d2c5549ae7386c4492a046e0f3/slides/L2_Statistical%20inference.pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/06a964b6bd322a1b08cd1c64c336132536f2a6a4/L2_EPIB704_stat_inference.html)   |
 | September 5, 2024  | Lecture 03 - Causal inference with DAGs                                                       | [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/209d17c34e1e00d2c5549ae7386c4492a046e0f3/slides/L3_Directed%20Acyclic%20Graphs%20(DAGs).pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/06a964b6bd322a1b08cd1c64c336132536f2a6a4/L3_EPIB704_DAG_intro.html)  |
 | September 10, 2024 | Lecture 04 - Measures of Occurrence                                                           |  [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/209d17c34e1e00d2c5549ae7386c4492a046e0f3/slides/L4_Measures%20of%20Occurrence.pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/06a964b6bd322a1b08cd1c64c336132536f2a6a4/L4_EPIB704_Occurrence.html) |
@@ -67,6 +67,4 @@ invisible(lapply(packages, function(xxx) suppressMessages(require(xxx, character
 | November 21, 2024  | Lecture 23 - Model building/selection                                                         | [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/b7f848b7b1a2ee0c3ef72ca70775d5dbc1c2d428/slides/L22_Model%20selection.pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/827d75e12faba59a4510ac61554ac5f730882d5e/L22_EPIB704_Model_Building.html)      |
 | November 28, 2024  | Lecture 24 - Hierarchical models                                                              | [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/c9e379afb69020e861c0f2b17889c0913a756369/L23_EPIB704_Hierarchical_Models.html)     |
 | December 3, 2024   | Lecture 25 - Misc /Data visualizations           |  [pdf](https://rawcdn.githack.com/mcarabali1/EPIB-704/1ae31a05711aac40de93833673d881c27ca2ae20/slides/L25_Data%20visualization.pdf), [html](https://rawcdn.githack.com/ortizbrizuela/internal-use-only/e70d018a9ad70a54b1ad704d455918b7f643cd3e/L25_Data%20visualization.html)   |
-
-_We have pre-selected a list of topics to go through the 13 weeks-long course. Each lecture is aimed at addressing specific epidemiological concepts, addressing both theoretical and analytic/practical aspects._ 
 
